@@ -15,5 +15,9 @@ namespace ConsoleApp2
         {
             Console.WriteLine("Это новый метод");
         }
+        public void NewMethodConflictBracnh()
+        {
+            Console.WriteLine("Это новый метод в ветке conflict-branch");
+        }
     }
 }
