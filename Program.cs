@@ -13,11 +13,11 @@ namespace ConsoleApp2
         }
         public void ExistingMethod()
         {
-            Console.WriteLine("Это новый изменённый метод в основном ветке");
+            Console.WriteLine("Этот метод был изменен в основной ветке!");
         }
         public void NewMethodConflictBracnh()
         {
-            Console.WriteLine("Это новый метод в ветке conflict-branch");
+            Console.WriteLine("Это новый метод в ветке conflict-branch!");
         }
     }
 }
