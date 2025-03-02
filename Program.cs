@@ -11,5 +11,9 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
         }
+        public void NewMethod()
+        {
+            Console.WriteLine("Это новый метод");
+        }
     }
 }
